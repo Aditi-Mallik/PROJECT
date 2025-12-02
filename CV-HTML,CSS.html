@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CV - Aditi Mallik</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f7;
+      color: #222;
+      padding: 20px;
+    }
+
+    .cv-container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      padding: 32px;
+      display: grid;
+      grid-template-columns: 1.1fr 1.7fr;
+      gap: 32px;
+    }
+
+    /* Header */
+    .cv-header {
+      grid-column: 1 / 3;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 20px;
+      margin-bottom: 10px;
+    }
+
+    .name {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .title {
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 4px;
+      color: #555;
+    }
+
+    .summary {
+      margin-top: 12px;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      color: #444;
+      font-style: italic;
+    }
+
+    /* Left column */
+    .left-column h2,
+    .right-column h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+      color: #444;
+    }
+
+    .section {
+      margin-bottom: 22px;
+    }
+
+    .section-title-line {
+      width: 40px;
+      height: 3px;
+      background: #0077b6;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+
+    .contact-item {
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+    }
+
+    .contact-item span {
+      font-weight: 600;
+    }
+
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .tag-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .tag {
+      font-size: 0.8rem;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #f0f4ff;
+      border: 1px solid #d6e2ff;
+    }
+
+    .simple-list {
+      list-style: none;
+      margin-top: 4px;
+      font-size: 0.9rem;
+    }
+
+    .simple-list li {
+      margin-bottom: 4px;
+    }
+
+    /* Right column */
+    .edu-item,
+    .cert-item {
+      margin-bottom: 14px;
+      font-size: 0.9rem;
+    }
+
+    .edu-school {
+      font-weight: 600;
+    }
+
+    .edu-detail {
+      color: #555;
+      margin-top: 2px;
+    }
+
+    .edu-year {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: 2px;
+    }
+
+    .skills-subtitle {
+      font-weight: 600;
+      margin-top: 4px;
+      margin-bottom: 2px;
+      font-size: 0.9rem;
+    }
+
+    ul.bullet-list {
+      padding-left: 18px;
+      font-size: 0.9rem;
+      margin-top: 2px;
+    }
+
+    ul.bullet-list li {
+      margin-bottom: 3px;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .cv-container {
+        grid-template-columns: 1fr;
+        padding: 20px;
+      }
+
+      .cv-header {
+        grid-column: 1 / 2;
+      }
+    }
+  </style>
+</head>
+<body>
+    
+  <div class="cv-container">
+    <!-- HEADER -->
+    <header class="cv-header">
+      <div class="name">ADITI MALLIK</div>
+      <div class="title">Engineering Undergraduate</div>
+      <p class="summary">
+        “Aiming to drive transformative growth and propel humanity forward through innovative software solutions,
+        while continuously learning and improving my skills to stay ahead in this ever-evolving tech landscape.”
+      </p>
+    </header>
+
+    <!-- LEFT COLUMN -->
+    <aside class="left-column">
+      <!-- CONTACT -->
+      <section class="section">
+        <h2>Contact</h2>
+        <div class="section-title-line"></div>
+        <p class="contact-item">
+          <span>Phone:</span>
+          <a href="tel:1235">1235</a>
+        </p>
+        <p class="contact-item">
+          <span>LinkedIn:</span>
+          <a href="linkedin.com/in/contact_to _know" target="_blank">
+            linkedin.com/in/contact_to _know
+          </a>
+        </p>
+        <p class="contact-item">
+          <span>Email:</span>
+          <a href="gmail.com">your.aditi@gmailplace.com</a>
+        </p>
+        <p class="contact-item">
+          <span>Location:</span> India
+        </p>
+      </section>
+
+      <!-- LANGUAGE -->
+      <section class="section">
+        <h2>Language</h2>
+        <div class="section-title-line"></div>
+        <ul class="simple-list">
+          <li>English (Proficient)</li>
+          <li>Hindi (Native)</li>
+          <li>Punjabi (Native)</li>
+        </ul>
+      </section>
+
+      <!-- HOBBIES -->
+      <section class="section">
+        <h2>Hobbies</h2>
+        <div class="section-title-line"></div>
+        <ul class="simple-list">
+          <li>Reading</li>
+          <li>Photography</li>
+          <li>Digital Art</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- RIGHT COLUMN -->
+    <main class="right-column">
+      <!-- EDUCATION -->
+      <section class="section">
+        <h2>Education</h2>
+        <div class="section-title-line"></div>
+
+        <div class="edu-item">
+          <div class="edu-school">Lovely Professional University | INDIA </div>
+          <div class="edu-detail">
+            Degree: B.Tech in Computer Science and Engineering (Present)
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-school">Guru Angad Dev School | INDIA</div>
+          <div class="edu-detail">Senior Secondary School [Grade 12]</div>
+          <div class="edu-year">Year - 2024</div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-school">SSSS Modern High School | INDIA </div>
+          <div class="edu-detail">Secondary School [Grade 10]</div>
+          <div class="edu-year">Year - 2022</div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section">
+        <h2>Skills</h2>
+        <div class="section-title-line"></div>
+
+        <p class="skills-subtitle">Technical Skills:</p>
+        <ul class="bullet-list">
+          <li>HTML5 (Basic)</li>
+          <li>CSS3 (Basic)</li>
+          <li>Python (Basic)</li>
+        </ul>
+
+        <p class="skills-subtitle" style="margin-top: 10px;">Soft Skills:</p>
+        <ul class="bullet-list">
+          <li>Teamwork &amp; Collaboration</li>
+          <li>Time Management</li>
+          <li>Problem-Solving</li>
+          <li>Communication</li>
+          <li>Adaptability</li>
+        </ul>
+      </section>
+
+      <!-- CERTIFICATION -->
+      <section class="section">
+        <h2>Certification</h2>
+        <div class="section-title-line"></div>
+        <div class="cert-item">
+          Effective Time Management (MOOC)
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
